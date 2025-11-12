@@ -23,5 +23,7 @@ React, Vite, Tailwind CSS, OpenWeatherMap API (нужен ключ).
 ## 🚀 Запуск локально
 ```bash
 npm i
+# (опционально) скопируйте пример переменных окружения
+cp .env.local.example .env.local
 npm run dev
 ```
