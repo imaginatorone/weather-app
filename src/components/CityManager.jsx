@@ -48,7 +48,7 @@ export default function CityManager() {
         className="flex-1 px-3 py-2 rounded-lg border bg-white
                    border-gray-300 dark:border-gray-700
                    dark:bg-gray-800 dark:text-gray-100"
-        placeholder="Добавить город (например, Москва)"
+        placeholder="Введите название города (например, Москва)"
         value={q}
         onChange={(e)=>setQ(e.target.value)}
       />
